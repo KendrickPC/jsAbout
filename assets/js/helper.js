@@ -11,16 +11,16 @@ var HTMLlocation = '<div class="location-info"><i class="ion-ios-location-outlin
     // contact info
 var HTMLcontactDiv = '<div class="contact-div"></div>';
 var HTMLcontactGeneric = '<div class="contact-item"><div class="contact-attr">%contact%</div><div class="contact-value"><span>%data%</span></div>';
-var HTMLlinkedin = '<div class="contact-item"><a href="#"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLgithub = '<div class="contact-item"><a href="#"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLinstagram = '<div class="contact-item"><a href="#"><div class="contact-icon-align-box"><i class="ion-social-instagram-outline contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLwebsite = '<div class="contact-item"><a href="#"><div class="contact-icon-align-box"><i class="ion-android-globe contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLlinkedin = '<div class="contact-item"><a href="https://www.linkedin.com/"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLgithub = '<div class="contact-item"><a href="https://github.com/"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLfacebook = '<div class="contact-item"><a href="https://www.facebook.com"><div class="contact-icon-align-box"><i class="ion-social-facebook contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLwebsite = '<div class="contact-item"><a href="www.everydaykenneth.com"><div class="contact-icon-align-box"><i class="ion-android-globe contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
 
     // description
 var HTMLmessageDiv = '<div class="short-description"></div>';
 var HTMLwelcomeMsg = '<p class="welcome-message">%data%</p>';
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
+var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></li>';
 // end biography section-----
 
 

@@ -3,15 +3,15 @@ var bio = {
     "name": "Kenneth P. Chang",
     "role": "Full Stack Engineer",
     "contacts": {
-        "linkedin": "check me out on linkedIn",
-        "github": "check out my Github",
-        "instagram": "@not.telling",
-        "website": "www.EveryDayKenneth.com",
+        "linkedin": "check me out on LinkedIn",
+        "github": "check out my GitHub",
+        "facebook": "check out my Facebook",
+        "website": "check out my website",
         "location": "Taipei, TW & Cupertino, CA"
     },
-    "welcomeMessage": "Say something clever here. Maybe something in Chinese?",
-    "skills": ["HTML/CSS", "JS/Jquery", "Responsive Web Design", "Angular JS"],
-    "biopic": "assets/images/fry2.jpg",
+    "welcomeMessage": "",
+    "skills": ["HTML", "CSS", "Javascript", "Ruby"],
+    "biopic": "assets/images/fry9.jpg",
     "display": function () {
         $("#header").append(HTMLimgDiv);
         $(".img-div").append(HTMLbioPic.replace("%data%", bio.biopic));
@@ -22,7 +22,7 @@ var bio = {
         $("#header").append(HTMLcontactDiv);
         $(".contact-div").append(HTMLlinkedin.replace("%data%", bio.contacts.linkedin));
         $(".contact-div").append(HTMLgithub.replace("%data%", bio.contacts.github));
-        $(".contact-div").append(HTMLinstagram.replace("%data%", bio.contacts.instagram));
+        $(".contact-div").append(HTMLfacebook.replace("%data%", bio.contacts.facebook));
         $(".contact-div").append(HTMLwebsite.replace("%data%", bio.contacts.website));
         $("#header").append(HTMLmessageDiv);
         $(".short-description").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
