@@ -11,10 +11,10 @@ var HTMLlocation = '<div class="location-info"><i class="ion-ios-location-outlin
     // contact info
 var HTMLcontactDiv = '<div class="contact-div"></div>';
 var HTMLcontactGeneric = '<div class="contact-item"><div class="contact-attr">%contact%</div><div class="contact-value"><span>%data%</span></div>';
-var HTMLlinkedin = '<div class="contact-item"><a href="https://www.linkedin.com/"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLgithub = '<div class="contact-item"><a href="https://github.com/"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLfacebook = '<div class="contact-item"><a href="https://www.facebook.com"><div class="contact-icon-align-box"><i class="ion-social-facebook contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLwebsite = '<div class="contact-item"><a href="http://www.everydaykenneth.com"><div class="contact-icon-align-box"><i class="ion-android-globe contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLlinkedin = '<div class="contact-item"><a href="https://www.linkedin.com/" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLgithub = '<div class="contact-item"><a href="https://github.com/" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLfacebook = '<div class="contact-item"><a href="https://www.facebook.com"target="_blank"><div class="contact-icon-align-box"><i class="ion-social-facebook contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLwebsite = '<div class="contact-item"><a href="http://www.everydaykenneth.com" target="_blank"><div class="contact-icon-align-box"><i class="ion-android-globe contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
 
     // description
 var HTMLmessageDiv = '<div class="short-description"></div>';
@@ -26,7 +26,7 @@ var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></
 
 // begin work experience section-----
 var HTMLworkHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-paper"></i></div><div class="section-header-title"><h2 class="title-text">Experience</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLworkStart = '<div class="work-entry"></div>';
+var HTMLworkStart = '<div class="work-entry" style="display: none;"></div>';
 var HTMLworkEmployer = '<a href="#" class="sub-header">%data%';
 var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text"><p>%data%</p></div>';
@@ -36,14 +36,14 @@ var HTMLworkDescription = '<p class="description-text">%data%</p>';
 
 // begin education section-----
 var HTMLeducationHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-lightbulb"></i></div><div class="section-header-title"><h2 class="title-text">Education</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLschoolStart = '<div class="education-entry"></div>';
+var HTMLschoolStart = '<div class="education-entry" style="display: none;"></div>';
 var HTMLschoolName = '<a href="#" class="sub-header">%data%';
 var HTMLschoolDegree = ' - %data%</a>';
 var HTMLschoolLocation = '<div class="location-text"><p>%data%</p></div>';
 var HTMLschoolDates = '<div class="date-text"><p>%data%</p></div>';
 var HTMLschoolMajor = '<div class="major"><p class="description-text">Major: %data%</p></div>';
 var HTMLschoolMinor = '<div class="minor"><p class="description-text">Minor: %data%</p></div>';
-var HTMLonlineClassesStart = '<div class="online-classes-entry"></div>';
+var HTMLonlineClassesStart = '<div class="online-classes-entry" style="display: none;"></div>';
 var HTMLonlineClasses = '<p class="sub-header">Online Classes</p>';
 var HTMLonlineClassesSubHeading = '<div class="online-classes-sub-heading"></div>';
 var HTMLonlineTitle = '<a href="#">%data%';
@@ -54,15 +54,17 @@ var HTMLonlineDescription = '<p class="description-text">%data%</p>';
 // end education section-----
 
 // begin projects section-----
-var HTMLprojectHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-albums-outline"></i></div><div class="section-header-title"><h2 class="title-text">Projects</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLprojectStart = '<div class="project-entry"></div>';
+var HTMLprojectHeader = '<div class="section-header"><div class="section-icon"><i class="ion-briefcase"></i></div><div class="section-header-title"><h2 class="title-text">Projects</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
+var HTMLprojectStart = '<div class="project-entry" style="display: none;"></div>';
 var HTMLprojectTitle = '<a href="#" class="sub-header">%data%</a>';
 var HTMLprojectDates = '<div class="date-text"><p>%data%</p></div>';
 var HTMLprojectDescription = '<p class="description-text">%data%</p>';
 var HTMLprojectImage = '<img src="%data%" class="project-screenshot">';
 // end projects section-----
 
+// begin skills section
 
+// end skills section
 
 // begin googleMaps-----
 var HTMLmapsHeader = '<div class="section-header"><div class="section-icon"><i class="ion-map"></i></div><div class="section-header-title"><h2 class="title-text">My Places</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';

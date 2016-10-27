@@ -24,8 +24,8 @@ body {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border: 10px solid #989898;
     box-shadow: 2px 2px 20px #727272;
 }
@@ -552,7 +552,7 @@ a {
     border-bottom: 0;
 }
 #map {
-    display: block;
+    display: inline-block;
     height: 400px;
     margin: 0;
 }

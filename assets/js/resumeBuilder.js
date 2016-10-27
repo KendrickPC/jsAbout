@@ -11,7 +11,7 @@ var bio = {
     },
     "welcomeMessage": "",
     "skills": ["HTML", "CSS", "Javascript", "Ruby"],
-    "biopic": "assets/images/fry9.jpg",
+    "biopic": "assets/images/fry.jpg",
     "display": function () {
         $("#header").append(HTMLimgDiv);
         $(".img-div").append(HTMLbioPic.replace("%data%", bio.biopic));
@@ -25,7 +25,8 @@ var bio = {
         $(".contact-div").append(HTMLfacebook.replace("%data%", bio.contacts.facebook));
         $(".contact-div").append(HTMLwebsite.replace("%data%", bio.contacts.website));
         $("#header").append(HTMLmessageDiv);
-        $(".short-description").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
+        // $(".short-description").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
+        $("skills").append(HTMLskills.replace("%data%", bio.skills));
     }
 };
 // end bio section
@@ -148,6 +149,11 @@ var education = {
     }
 };
 // end education section
+
+// begin skills Javascript
+         
+// end skills Javascript
+
 
 // begin display function calls-----
 bio.display();

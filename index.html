@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- css stylesheets -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
   <!-- must load jquery before anything else -->
   <script src="assets/js/jQuery.js"></script>
   <script src="assets/js/helper.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+<!--   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <!-- IonIcons Font  -->
   <link href="assets/css/ionicons.css" rel="stylesheet">  
 </head>
 <body>
-
   <div id="main">
     <div id="header">
     </div>
@@ -25,16 +26,35 @@
     </div>
     <div id="projects">
     </div>
-    <div id="skills-list">
+<!-- begin skills experiment.  -->    
+    <div id="skills" class="active">
+      <iframe class="chartjs-hidden-iframe" style="width: 100%; display: none; border: 0px; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+      <div class="section-header">
+        <div class="section-icon">
+          <i class="ion-wrench"></i>
+        </div>
+        <div class="section-header-title">
+          <h2 class="title-text">Skills</h2>
+        </div>
+        <div class="pull-menu-icon">
+          <i class="ion-chevron-down icon-box"></i></div>
+        </div>
+    <canvas id="myChart" style="display: none;"></canvas>
     </div>
+<!-- end skills experiment -->    
     <div id="mapDiv">
     </div>
+    
   </div>
-
 <!-- chartjs CDN (add local files later) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+  <script src="assets/js/chart.js"></script>
   <script src="assets/js/resumeBuilder.js"></script>
   <script src="assets/js/resumeEventHandler.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>  
+<!--   // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 </html>
+
+
+
