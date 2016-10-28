@@ -2,7 +2,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'polarArea',
   data: {
-    labels: ["M", "T", "W", "T", "F", "S", "S"],
+    labels: ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "JQUERY", "RUBY", "API"],
     datasets: [{
       backgroundColor: [
         "#2ecc71",
@@ -13,7 +13,7 @@ var myChart = new Chart(ctx, {
         "#e74c3c",
         "#34495e"
       ],
-      data: [5, 4, 3, 2, 1, 2, 3]
+      data: [12, 19, 3, 17, 28, 24, 7]
     }]
   }
 });

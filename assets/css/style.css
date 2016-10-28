@@ -1,8 +1,38 @@
+/*begin document styles to load with closed tabs*/
+.work-entry {
+    display: none;
+}
+
+.education-entry {
+    display: none;   
+}
+
+.project-entry {
+    display: none;
+}
+
+.chartjs-hidden-iframe {
+    width: 100%; 
+    display: none; 
+    border: 0px; 
+    height: 0px; 
+    margin: 0px; 
+    position: absolute; 
+    left: 0px; 
+    right: 0px; 
+    top: 0px; 
+    bottom: 0px;
+}
+
+/*end document styles to load with closed tabs*/
+
+
+/*adding margins on the top and bottom of the entire document*/ 
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+/*end margins on the top and bottom of the entire document*/ 
 body,
 div,
 p,
@@ -26,7 +56,7 @@ body {
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 10px solid #989898;
+    border: 10px solid white;
     box-shadow: 2px 2px 20px #727272;
 }
 .education-entry,
@@ -131,9 +161,9 @@ a {
     flex-wrap: wrap;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
-    background-color: #dddddd;
+    background-color: #1b4b7d;
     border-bottom: 1px solid #eaeaea;
-    color: #eaeaea;
+    color: #ffffff;
 }
 .img-div {
     display: -webkit-box;
@@ -239,7 +269,7 @@ a {
     flex-wrap: nowrap;
 }
 .contact-item {
-    color: black;
+    color: #bfbfbf;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

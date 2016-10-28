@@ -26,7 +26,7 @@ var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></
 
 // begin work experience section-----
 var HTMLworkHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-paper"></i></div><div class="section-header-title"><h2 class="title-text">Experience</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLworkStart = '<div class="work-entry" style="display: none;"></div>';
+var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#" class="sub-header">%data%';
 var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text"><p>%data%</p></div>';
@@ -36,7 +36,7 @@ var HTMLworkDescription = '<p class="description-text">%data%</p>';
 
 // begin education section-----
 var HTMLeducationHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-lightbulb"></i></div><div class="section-header-title"><h2 class="title-text">Education</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLschoolStart = '<div class="education-entry" style="display: none;"></div>';
+var HTMLschoolStart = '<div class="education-entry"></div>';
 var HTMLschoolName = '<a href="#" class="sub-header">%data%';
 var HTMLschoolDegree = ' - %data%</a>';
 var HTMLschoolLocation = '<div class="location-text"><p>%data%</p></div>';
@@ -55,7 +55,7 @@ var HTMLonlineDescription = '<p class="description-text">%data%</p>';
 
 // begin projects section-----
 var HTMLprojectHeader = '<div class="section-header"><div class="section-icon"><i class="ion-briefcase"></i></div><div class="section-header-title"><h2 class="title-text">Projects</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
-var HTMLprojectStart = '<div class="project-entry" style="display: none;"></div>';
+var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="#" class="sub-header">%data%</a>';
 var HTMLprojectDates = '<div class="date-text"><p>%data%</p></div>';
 var HTMLprojectDescription = '<p class="description-text">%data%</p>';

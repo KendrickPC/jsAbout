@@ -7,7 +7,7 @@ var bio = {
         "github": "check out my GitHub",
         "facebook": "check out my Facebook",
         "website": "check out my website",
-        "location": "Taipei, TW & Cupertino, CA"
+        "location": "Taipei, TW"
     },
     "welcomeMessage": "",
     "skills": ["HTML", "CSS", "Javascript", "Ruby"],
