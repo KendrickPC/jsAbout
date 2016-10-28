@@ -2,18 +2,25 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'polarArea',
   data: {
-    labels: ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "JQUERY", "RUBY", "API"],
+    labels: ["HTML", "JQUERY", "JAVASCRIPT", "PYTHON", "CSS", "RUBY", "API"],
     datasets: [{
       backgroundColor: [
-        "#2ecc71",
+        "#adddcf",
         "#3498db",
-        "#95a5a6",
-        "#9b59b6",
-        "#f1c40f",
-        "#e74c3c",
-        "#34495e"
+        "#e8e7e5",
+        "#bfb1d5",
+        "#f0e0a2",
+        "#fed1be",
+        "#777777"
       ],
-      data: [12, 19, 3, 17, 28, 24, 7]
+      data: [93, 67, 80, 73, 87, 38, 65]
     }]
   }
+});
+
+
+new Chart(ctx, {
+    data: data,
+    type: 'polarArea',
+    options: options
 });

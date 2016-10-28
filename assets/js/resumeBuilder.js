@@ -102,20 +102,27 @@ var projects = {
 var education = {
     "schools": [
         {
-            "name": "Notre Dame University",
-            "location": "South Bend, IN",
+            "name": "Stanford University",
+            "location": "Stanford, CA",
             "degree": "M.S.",
             "majors": "Biochemistry",
             "dates": "2009 - 2011",
-            "url": "www.notredame.edu"
+            "url": "www.stanford.edu"
  	},
+        {
+            "name": "University of California, Berkeley Extension",
+            "location": "San Francisco, CA",
+            "degree": "Copy Editing Certification",
+            "majors": "Copy Editing",
+            "dates": "2007 - 2009",
+            "url": "www.ucb.edu"
+    },
 
         {
             "name": "University of California, Santa Barbara",
             "location": "Santa Barbara, CA",
             "degree": "BA",
             "majors": "Political Science",
-            
             "dates": "2003-2007",
             "url": "www.ucsb.edu"
  	}],
