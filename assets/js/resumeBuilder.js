@@ -36,7 +36,7 @@ var work = {
     "jobs": [
         {
             "employer": "Freelance Developer",
-            "title": "Freelance Developer",
+            "title": "Coding Tutor",
             "location": "Taipei, TW",
             "dates": "2014-2016",
             "description": "Tutoring code with English in Taiwan."
@@ -102,14 +102,6 @@ var projects = {
 var education = {
     "schools": [
         {
-            "name": "Stanford University",
-            "location": "Stanford, CA",
-            "degree": "M.S.",
-            "majors": "Biochemistry",
-            "dates": "2009 - 2011",
-            "url": "www.stanford.edu"
- 	},
-        {
             "name": "University of California, Berkeley Extension",
             "location": "San Francisco, CA",
             "degree": "Copy Editing Certification",
@@ -117,7 +109,6 @@ var education = {
             "dates": "2007 - 2009",
             "url": "www.ucb.edu"
     },
-
         {
             "name": "University of California, Santa Barbara",
             "location": "Santa Barbara, CA",
@@ -130,9 +121,16 @@ var education = {
         "title": "Front-End Web Developer Nanodegree",
         "school": "Udacity",
         "dates": "2016",
-        "url": "www.udacity.com",
-        "description": "There's no price tag for a quality education."
- 	}],
+        "url": "link for more information",
+        "description": "Mastering the skills required to become a Front-End Web Developer, built beautiful & responsive websites optimized for mobile & desktop performance."
+ 	},
+                      {   
+        "title": "Intro to Programming Nanodegree",
+        "school": "Udacity",
+        "dates": "2015",
+        "url": "link for more information",
+        "description": "An introductory program for reviewing foundational skills all programmers use."
+    }],
     "display": function () {
         $("#education").append(HTMLeducationHeader);
         for (e in education.schools) {
