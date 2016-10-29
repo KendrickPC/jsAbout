@@ -35,18 +35,18 @@ var bio = {
 var work = {
     "jobs": [
         {
-            "employer": "IBM",
-            "title": "Software Engineer",
+            "employer": "Freelance Developer",
+            "title": "Freelance Developer",
             "location": "Taipei, TW",
-            "dates": "2014-Present",
-            "description": "I design software as a Junior Software Engineer."
+            "dates": "2014-2016",
+            "description": "Tutoring code with English in Taiwan."
  	},
         {
-            "employer": "Cambridge Associates LLC",
-            "title": "Junior Analyst",
-            "location": "Menlo Park, CA",
+            "employer": "Private Financial Consulting, LLC",
+            "title": "Operations Analyst",
+            "location": "Palo Alto, CA",
             "dates": "2010-2014",
-            "description": "I analyzed large sets of data with basic fundamental problem solving methods."
+            "description": "I analyzed large sets of data within the company's operations."
  	}],
     "display": function () {
         $("#work-experience").append(HTMLworkHeader);

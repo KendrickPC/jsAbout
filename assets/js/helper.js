@@ -27,8 +27,8 @@ var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></
 // begin work experience section-----
 var HTMLworkHeader = '<div class="section-header"><div class="section-icon"><i class="ion-ios-paper"></i></div><div class="section-header-title"><h2 class="title-text">Experience</h2></div><div class="pull-menu-icon"><i class="ion-chevron-down icon-box"></i></div></div>';
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="#" class="sub-header">%data%';
-var HTMLworkTitle = ' - %data%</a>';
+var HTMLworkEmployer = '<p class="sub-header">%data%';
+var HTMLworkTitle = ' - %data%</p>';
 var HTMLworkDates = '<div class="date-text"><p>%data%</p></div>';
 var HTMLworkLocation = '<div class="location-text"><p>%data%</p></div>';
 var HTMLworkDescription = '<p class="description-text">%data%</p>';
