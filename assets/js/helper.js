@@ -49,7 +49,7 @@ var HTMLonlineClassesSubHeading = '<div class="online-classes-sub-heading"></div
 var HTMLonlineTitle = '<p>%data%';
 var HTMLonlineSchool = ' - %data%</p>';
 var HTMLonlineDates = '<div class="date-text"><p>%data%</p></div>';
-var HTMLonlineURL = '<a href="https://www.udacity.com/nanodegree" target="_blank">%data%</a>';
+var HTMLonlineURL = '<a href="https://www.udacity.com/nanodegree" class="colorfy" target="_blank">%data%</a>';
 var HTMLonlineDescription = '<p class="description-text">%data%</p>';
 // end education section-----
 
