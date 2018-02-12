@@ -1,6 +1,8 @@
-var ctx = document.getElementById("myChart").getContext('2d');
+window.onload = function() {
+
+var ctx = document.getElementById("myChart").getContext("2d");
 var myChart = new Chart(ctx, {
-  type: 'polarArea',
+  type: "polarArea",
   data: {
     labels: ["HTML", "JQUERY", "JAVASCRIPT", "PYTHON", "CSS", "RUBY", "API"],
     datasets: [{
@@ -13,14 +15,14 @@ var myChart = new Chart(ctx, {
         "#fed1be",
         "#777777"
       ],
-      data: [93, 67, 80, 73, 87, 38, 65]
+      data: [93, 67, 80, 73, 87, 38, 65],
     }]
   }
 });
+}
 
-
-new Chart(ctx, {
-    data: data,
-    type: 'polarArea',
-    options: options
-});
+// new Chart(ctx, {
+//     data: "data",
+//     type: "polarArea",
+//     options: "options"
+// });

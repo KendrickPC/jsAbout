@@ -59,8 +59,9 @@ body {
 }
 #main {
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    /*changed from auto to none*/
+    margin-left: none;
+    margin-right: none;
     margin-top: 100px;
     margin-bottom: 100px;
     border: 10px solid white;
@@ -252,7 +253,8 @@ a {
     display: block;
     content: ' ';
     background-color: black;
-    width: 300px;
+    /*changed from 300px*/
+    width: 85%;
     height: 3px;
     margin-bottom: 0.5em;
 }
@@ -539,7 +541,7 @@ a {
 }
 .online-classes-sub-heading:before {
     font-family: "Ionicons";
-    content: "\f3d3";
+    /*content: "\f3d3";*/
     padding-right: 0.5em;
 }
 
@@ -584,7 +586,7 @@ span {
 
 /* Media queries to handle various device widths */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
     #header {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -657,6 +659,7 @@ span {
     body {
         font-size: 14px;
     }
+    /*changed from 85% to auto*/
     .short-description {
         width: 85%;
     }

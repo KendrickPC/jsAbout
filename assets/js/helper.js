@@ -11,9 +11,9 @@ var HTMLlocation = '<div class="location-info"><i class="ion-ios-location-outlin
     // contact info
 var HTMLcontactDiv = '<div class="contact-div"></div>';
 var HTMLcontactGeneric = '<div class="contact-item"><div class="contact-attr">%contact%</div><div class="contact-value"><span>%data%</span></div>';
-var HTMLlinkedin = '<div class="contact-item"><a href="https://www.linkedin.com/" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLgithub = '<div class="contact-item"><a href="https://github.com/" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
-var HTMLfacebook = '<div class="contact-item"><a href="https://www.facebook.com"target="_blank"><div class="contact-icon-align-box"><i class="ion-social-facebook contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLlinkedin = '<div class="contact-item"><a href="https://www.linkedin.com/in/kenneth-chang-94569a142/" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-linkedin contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLgithub = '<div class="contact-item"><a href="https://github.com/kendrickpc" target="_blank"><div class="contact-icon-align-box"><i class="ion-social-github contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
+var HTMLfacebook = '<div class="contact-item"><a href="https://www.facebook.com/kenneth.f.chang"target="_blank"><div class="contact-icon-align-box"><i class="ion-social-facebook contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
 var HTMLwebsite = '<div class="contact-item"><a href="http://www.everydaykenneth.com" target="_blank"><div class="contact-icon-align-box"><i class="ion-android-globe contact-icon"></i></div></a><div class="contact-value"><span>%data%</span></div>';
 
     // description
@@ -44,12 +44,12 @@ var HTMLschoolDates = '<div class="date-text"><p>%data%</p></div>';
 var HTMLschoolMajor = '<div class="major"><p class="description-text">Major: %data%</p></div>';
 var HTMLschoolMinor = '<div class="minor"><p class="description-text">Minor: %data%</p></div>';
 var HTMLonlineClassesStart = '<div class="online-classes-entry" style="display: none;"></div>';
-var HTMLonlineClasses = '<p class="sub-header">Online Classes</p>';
-var HTMLonlineClassesSubHeading = '<div class="online-classes-sub-heading"></div>';
-var HTMLonlineTitle = '<p>%data%';
-var HTMLonlineSchool = ' - %data%</p>';
+var HTMLonlineClasses = '<p class="sub-header">Online Degrees</p>';
+var HTMLonlineClassesSubHeading = '<div class="online-classes-sub-heading"> </div>';
+var HTMLonlineTitle = '<p>%data%</p>';
+var HTMLonlineSchool = '<p> - %data%</p>';
 var HTMLonlineDates = '<div class="date-text"><p>%data%</p></div>';
-var HTMLonlineURL = '<a href="https://www.udacity.com/nanodegree" class="colorfy" target="_blank">%data%</a>';
+// var HTMLonlineURL = '<a href="https://www.udacity.com/nanodegree" class="colorfy" target="_blank">%data%</a>';
 var HTMLonlineDescription = '<p class="description-text">%data%</p>';
 // end education section-----
 
